@@ -3,7 +3,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <div className="wrapper" 
+      <div
       style={{
         display: "flex",
         justifyContent: "space-between",
@@ -11,9 +11,9 @@ function App() {
         paddingBottom: "1rem",
         borderBottom: "1px solid #ccc"
       }}>
-        <h3 className="mealHeading" style={{margin: "0 0 0.25rem 0"}}>Sushi</h3>
-        <div className="description" style={{fontStyle: "italic"}}>I prefer steak than sushi.</div>
-        <div className="price" 
+        <h3 style={{margin: "0 0 0.25rem 0"}}>Sushi</h3>
+        <div style={{fontStyle: "italic"}}>I prefer steak than sushi.</div>
+        <div 
         style={{
           marginTop: "0.25rem",
           fontWeight: "bold",
